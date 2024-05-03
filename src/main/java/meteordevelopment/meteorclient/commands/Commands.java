@@ -63,6 +63,7 @@ public class Commands {
         add(new WaypointCommand());
         add(new InputCommand());
         add(new LocateCommand());
+        add (new InvSee());
 
         COMMANDS.sort(Comparator.comparing(Command::getName));
     }
