@@ -20,7 +20,7 @@ public final class InvSee extends Command implements RenderListener
 {
 	private String targetName;
 	
-	public InvseeCmd()
+	public InvSee()
 	{
 		super("invsee",
 			"Allows you to see parts of another player's inventory.",
